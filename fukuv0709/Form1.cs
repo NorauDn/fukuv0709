@@ -16,5 +16,34 @@ namespace fukuv0709
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "( ﾟДﾟ)";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top + -5;
+            label1.Text = "((*´ω｀*))";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top + 5;
+            label1.Text = "(*´ω｀*)";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Left = label1.Left + 5;
+            label1.Text = "(((*´ω｀*)";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Left = label1.Left + -5;
+            label1.Text = "(*´ω｀*)))";
+        }
     }
 }
